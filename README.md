@@ -1,80 +1,272 @@
-# Explorador de Emoções — "Nossas Emoções" 🧩✨
+# NossasEmocoes
 
-> **De Piauí para o Mundo 2026** 🌍
-> [cite_start]Um aplicativo gamificado mobile voltado ao suporte no reconhecimento de emoções faciais para estudantes com Transtorno do Espectro Autista (TEA).
+Aplicativo mobile gamificado desenvolvido para auxiliar estudantes com Transtorno do Espectro Autista (TEA) no reconhecimento de emoções faciais por meio de interações lúdicas, acessíveis e educativas.
 
----
-
-## 📋 Sobre o Projeto
-
-[cite_start]O projeto **"Nossas Emoções"** surge no ambiente educacional — focado especialmente no **Atendimento Educacional Especializado (AEE)** da rede pública — para mitigar as barreiras de comunicação social e interpretação de expressões faciais enfrentadas por estudantes com TEA[cite: 14, 16, 21]. 
-
-[cite_start]Por meio de uma abordagem puramente baseada em **gamificação**, o aplicativo funciona como uma ferramenta pedagógica e de tecnologia assistiva, estimulando a atenção, a interpretação visual e a associação contínua de emoções de forma lúdica, segura e adaptável[cite: 18, 35, 63].
+O projeto foi desenvolvido utilizando Android nativo com Jetpack Compose e tem como foco o desenvolvimento socioemocional, inclusão digital e apoio ao Atendimento Educacional Especializado (AEE).
 
 ---
 
-## 🎯 Objetivos
+# Objetivo do Projeto
 
-### Geral
-* [cite_start]Desenvolver um aplicativo mobile gamificado voltado ao reconhecimento de expressões faciais para auxiliar no desenvolvimento de competências socioemocionais de estudantes com TEA[cite: 31].
+O Emotion Explorer Compose busca estimular habilidades de:
 
-### Específicos
-* [cite_start]Estimular a identificação de emoções básicas (felicidade, tristeza, raiva, medo e surpresa)[cite: 33, 45].
-* [cite_start]Fornecer apoio pedagógico prático e interativo para professores e profissionais que atuam no AEE[cite: 36, 70].
-* [cite_start]Promover a inclusão digital e o engajamento escolar através de tecnologia assistiva adaptada[cite: 34, 42].
+* reconhecimento de emoções faciais;
+* interpretação visual;
+* associação emocional;
+* comunicação socioemocional;
+* aprendizagem interativa e gamificada.
 
----
-
-## 🕹️ Funcionalidades e Jornada do Usuário
-
-[cite_start]O fluxo de usabilidade foi desenhado especificamente para ser simples, intuitivo e com foco em alta previsibilidade visual[cite: 47, 56]:
-1. [cite_start]**Entrada na Jornada:** O usuário inicia o aplicativo de forma direta[cite: 57].
-2. [cite_start]**Seleção de Níveis:** Escolha do mapa de descobertas/nível disponível para execução[cite: 58].
-3. [cite_start]**Desafio Visual:** Uma expressão facial ou instrução é mostrada na tela[cite: 59].
-4. [cite_start]**Interação por Múltipla Escolha:** O estudante escolhe a alternativa correspondente[cite: 60].
-5. [cite_start]**Feedback Imediato:** O app exibe telas claras de feedback de sucesso ("Muito bem!") ou nova tentativa ("Tente novamente"), acompanhadas de descrições didáticas sobre o sentimento[cite: 46, 61].
-6. [cite_start]**Recompensa Gamificada:** Sistema de progressão, pontos e conquista de medalhas colecionáveis para manter a constância e o engajamento[cite: 62, 153].
+A proposta surgiu a partir da necessidade observada no contexto escolar de ferramentas acessíveis voltadas ao desenvolvimento emocional de estudantes com TEA.
 
 ---
 
-## 🛠️ Stack Tecnológica
+# Público-Alvo
 
-[cite_start]O MVP funcional do aplicativo foi estruturado com as tecnologias modernas do ecossistema Android nativo[cite: 84, 133]:
-* [cite_start]**Sistema Operacional:** Android [cite: 133]
-* [cite_start]**Framework de Interface:** Jetpack Compose (garantindo componentes modernos, fluidos e responsivos) [cite: 135]
-* [cite_start]**Elementos Visuais:** Interfaces modernas baseadas em diretrizes estritas de acessibilidade e usabilidade para o público-alvo[cite: 47, 144].
+O aplicativo é voltado principalmente para:
 
----
-
-## 📈 Validação Inicial (MVP)
-
-[cite_start]A solução passou por testes iniciais práticos junto a **quatro estudantes diagnosticados com TEA** e atendidos pelo AEE[cite: 84]. [cite_start]Os resultados colhidos apontaram[cite: 85, 86, 87]:
-* [cite_start]Alta aceitação da ferramenta e participação ativa nas dinâmicas de jogo[cite: 85].
-* [cite_start]Validação da relevância do problema, identificando barreiras na leitura de expressões sutis, ironias e sarcasmos cotidianos[cite: 28, 86].
-* [cite_start]Estruturação do desenvolvimento guiado pelo ciclo contínuo: *Testar ➡️ Observar ➡️ Aprender ➡️ Melhorar*[cite: 88, 89, 90, 91, 92].
+* estudantes com Transtorno do Espectro Autista (TEA);
+* professores do Atendimento Educacional Especializado (AEE);
+* instituições educacionais;
+* projetos de inclusão digital;
+* profissionais da Educação Especial.
 
 ---
 
-## 🔮 Próximos Passos (Roadmap)
+# Funcionalidades
 
-* [cite_start][ ] Expansão do catálogo de emoções e inserção de novos contextos sociais[cite: 94, 155].
-* [cite_start][ ] Implementação de novos recursos sonoros e melhorias profundas de acessibilidade[cite: 97].
-* [cite_start][ ] Integração com Inteligência Artificial e Visão Computacional para reconhecimento facial por meio da câmera[cite: 82, 156, 157].
-* [cite_start][ ] Desenvolvimento de um módulo de relatórios pedagógicos para acompanhamento do progresso pelos professores do AEE[cite: 158, 159].
-* [cite_start][ ] Expansão para arquitetura multiplataforma[cite: 160].
+## MVP Atual
+
+* Tela inicial interativa;
+* Seleção de níveis;
+* Sistema de perguntas e respostas;
+* Identificação de emoções faciais;
+* Feedback visual imediato;
+* Sistema gamificado;
+* Progressão de fases;
+* Sistema de medalhas/conquistas;
+* Navegação entre telas;
+* Interface moderna e acessível.
+
+## Funcionalidades Futuras
+
+* Reconhecimento facial por câmera;
+* Integração com Inteligência Artificial;
+* Relatórios pedagógicos;
+* Acompanhamento de desempenho;
+* Sons e recursos de acessibilidade;
+* Expansão de emoções e contextos sociais;
+* Versão multiplataforma.
 
 ---
 
-## 👥 Equipe de Desenvolvimento
-* [cite_start]**Ana Carolina Ribeiro da Cruz** [cite: 7]
-* [cite_start]**Luís Isaías Bezerra Magalhães** [cite: 8]
-* [cite_start]**Nayra Stefanny Pereira de Carvalho** [cite: 9]
-* [cite_start]**Victor Emanuel Da Silva Pereira** [cite: 10]
-* [cite_start]**Yasmin Barboza Rodrigues Da Costa Nunes Silva** [cite: 11]
+# Tecnologias Utilizadas
 
-### 👨‍🏫 Orientação
-* **Prof. [cite_start]Francisco Douglas Castro da Silva** [cite: 12]
+## Mobile
 
-### 🏫 Instituição e Contexto
-* **CETI Raldir Cavalcante Bastos** [cite: 6]
-* [cite_start]**21ª GRE — Teresina / Piauí** [cite: 4, 5]
+* Kotlin
+* Android SDK
+* Jetpack Compose
+* Material Design 3
+* Android ViewModel
+* Navigation Compose
+
+## Ferramentas
+
+* Android Studio
+* Gradle Kotlin DSL
+* JVM 17
+
+---
+
+# Estrutura do Projeto
+
+```text
+app/
+ ├── src/main/java/com/our/emotions/
+ │
+ │   ├── ui/
+ │   │   ├── navigation/
+ │   │   ├── screens/
+ │   │   ├── viewmodel/
+ │   │   └── theme/
+ │   │
+ │   ├── data/
+ │   ├── model/
+ │   └── MainActivity.kt
+ │
+ ├── res/
+ └── build.gradle.kts
+```
+
+---
+
+# Principais Telas
+
+O projeto possui as seguintes telas:
+
+* HomeScreen
+* LevelSelectionScreen
+* GameplayScreen
+* FeedbackScreen
+* BadgesScreen
+* ProfileScreen
+* JourneyScreen
+
+---
+
+# Arquitetura
+
+O aplicativo segue uma arquitetura baseada em:
+
+* separação de responsabilidades;
+* gerenciamento de estado com ViewModel;
+* navegação desacoplada;
+* componentes reutilizáveis;
+* interface declarativa com Compose.
+
+---
+
+# Requisitos
+
+## Requisitos mínimos
+
+* Android 7.0 (API 24)
+* Android Studio Hedgehog ou superior
+* JDK 17
+
+---
+
+# Como Executar o Projeto
+
+## 1. Clone o repositório
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+```
+
+## 2. Abra no Android Studio
+
+Abra a pasta do projeto:
+
+```text
+NossasEmocoes
+```
+
+## 3. Sincronize o Gradle
+
+O Android Studio irá baixar automaticamente as dependências.
+
+## 4. Execute o aplicativo
+
+* Conecte um dispositivo Android;
+* ou utilize um emulador;
+* clique em Run ▶.
+
+---
+
+# Dependências Principais
+
+```kotlin
+implementation("androidx.activity:activity-compose:1.8.2")
+implementation("androidx.compose.material3:material3")
+implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
+implementation("androidx.compose.material:material-icons-extended")
+```
+
+---
+
+# Gamificação
+
+O aplicativo utiliza elementos de gamificação para aumentar o engajamento:
+
+* níveis;
+* medalhas;
+* feedback visual;
+* progressão;
+* reforço positivo.
+
+Esses elementos auxiliam no aprendizado contínuo de forma lúdica e interativa.
+
+---
+
+# Inclusão e Acessibilidade
+
+O projeto foi pensado considerando:
+
+* interface intuitiva;
+* estímulos visuais claros;
+* simplicidade de navegação;
+* apoio ao desenvolvimento socioemocional;
+* tecnologia assistiva aplicada ao ambiente escolar.
+
+---
+
+# Validação Inicial
+
+O MVP foi testado com estudantes atendidos pelo AEE.
+
+Os testes iniciais demonstraram:
+
+* boa aceitação da ferramenta;
+* engajamento dos estudantes;
+* participação ativa nas atividades;
+* potencial de apoio ao reconhecimento emocional.
+
+---
+
+# Impacto Esperado
+
+O projeto busca contribuir para:
+
+* inclusão digital;
+* desenvolvimento socioemocional;
+* fortalecimento das habilidades de comunicação;
+* apoio pedagógico ao AEE;
+* utilização de tecnologia assistiva na educação.
+
+---
+
+# Roadmap
+
+## Próximas melhorias
+
+* [ ] Novas emoções
+* [ ] Novos níveis
+* [ ] Sons e narração
+* [ ] Sistema de relatórios
+* [ ] Salvamento de progresso
+* [ ] Backend para sincronização
+* [ ] Versão multiplataforma
+* [ ] IA para reconhecimento facial
+
+---
+
+# Equipe
+
+## Desenvolvedores
+
+* Ana Carolina Ribeiro da Cruz
+* Luís Isaías Bezerra Magalhães
+* Nayra Stefanny Pereira de Carvalho
+* Victor Emanuel Da Silva Pereira
+* Yasmin Barboza Rodrigues Da Costa Nunes Silva
+
+## Orientação
+
+* Francisco Douglas Castro da Silva
+
+---
+
+# Projeto Acadêmico
+
+Projeto desenvolvido para iniciativas educacionais e tecnológicas voltadas à inclusão digital e acessibilidade.
+
+---
+
+# Licença
+
+## Código-fonte
+Este projeto está licenciado sob a MIT License.
+
+Consulte o arquivo LICENSE para mais detalhes.
